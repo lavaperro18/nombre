@@ -1,0 +1,17 @@
+{
+    "name": "vendor/nombre-del-paquete",
+    "description": "Una plantilla para proyectos Laravel",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\NombreDelPaquete\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendor\\NombreDelPaquete\\NombreDelPaqueteServiceProvider"
+            ]
+        }
+    }
+}
